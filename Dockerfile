@@ -1,4 +1,4 @@
-FROM mammdoo/k8s-toolkit:0.4.0
+FROM mammdoo/k8s-toolkit:0.1.1
 
 RUN helm repo add grafana https://grafana.github.io/helm-charts && \
     helm repo add elastic https://helm.elastic.co && \
