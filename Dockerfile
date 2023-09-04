@@ -6,9 +6,7 @@ RUN helm repo add grafana https://grafana.github.io/helm-charts && \
     helm repo add opensearch https://opensearch-project.github.io/helm-charts && \
     helm repo add aliyun https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts && \
     helm repo add prometheus https://prometheus-community.github.io/helm-charts && \
-    helm repo list
-
-RUN helm repo update
+    helm repo update
 
 WORKDIR /app/charts
 
