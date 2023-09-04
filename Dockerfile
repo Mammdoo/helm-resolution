@@ -18,7 +18,4 @@ RUN helm pull grafana/loki --version 5.8.8 && \
     helm pull prometheus/kube-prometheus-stack && \
     helm repo list
 
-WORKDIR /app
-ADD . /app
-
 ENTRYPOINT ["/bin/sh"]
